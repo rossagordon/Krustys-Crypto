@@ -1,4 +1,4 @@
-IN PROGRESS
+<b>IN PROGRESS</b>
 
 This is cryptocurrency tracker built with React and Tailwind CSS.
 
