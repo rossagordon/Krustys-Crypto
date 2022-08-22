@@ -23,10 +23,10 @@ const Tracker = () => {
   if (!data) return null;
 
   return (
-    <div className="bg-[#00957C] h-[1100px] p-8 w-full mx-auto grid md:grid-cols-2 gap-5 items-center">
+    <div className="bg-[#00957C] h-full w-full mx-auto grid md:grid-cols-2 gap-5 items-center">
       {/* Left Side*/}
       <div>
-        <h2 className="text-center text-4xl ">
+        <h2 className="text-center text-4xl m-8">
           Track your favorite crytpo! 
         </h2>
         <img src={Monkey} className="mx-auto" alt="Mr. Teeny" />
