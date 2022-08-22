@@ -3,5 +3,16 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Michroma', sans-serif;
+    font-family: "Akbar";
+}
+
+@font-face {
+    font-family: "Akbar";
+    src: local("Akbar"),
+     url("./fonts/akbar.woff") format("truetype");
+    font-weight: bold;
+    }
+    
+h1 {
+    font-family: "Akbar";
 }
