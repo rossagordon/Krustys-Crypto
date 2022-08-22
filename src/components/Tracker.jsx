@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiArrowUpRight, FiArrowDown } from "react-icons/fi";
 import axios from "axios";
+import Monkey from "../assets/Mr._Teeny.png"
 
 const Tracker = () => {
   const [data, setData] = useState(null);
@@ -22,22 +23,20 @@ const Tracker = () => {
   if (!data) return null;
 
   return (
-    <div className="bg-[#00957C] h-[1100px] mx-auto grid md:grid-cols-2 gap-5 items-center">
+    <div className="bg-[#00957C] h-[1100px] p-8 w-full mx-auto grid md:grid-cols-2 gap-5 items-center">
       {/* Left Side*/}
       <div>
-        <h2 className="text-center text-5xl p-8">
-          Krusty makes it easy to track your favorite crypto
+        <h2 className="text-center text-4xl ">
+          Track your favorite crytpo! 
         </h2>
-        <p className="text-center text-2xl mt-[5rem]">
-          Track your favorite crypto! Bitcoin, Etherium, Dogecoin and more!
-        </p>
+        <img src={Monkey} className="mx-auto" alt="Mr. Teeny" />
       </div>
 
       {/* Right Side */}
       <div className="h-[400px] w-[400px] flex grid grid-cols-3 mx-auto gap-[50px] items-center">
         <div>
           <div>
-            <img src={data[0].image} className="" alt="" />
+            <img src={data[0].image} className="w-[50%] h-[50%]" alt="" />
           </div>
           <div>
             <h5>{data[0].name}</h5>
@@ -59,7 +58,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[1].image} className="" alt="" />
+            <img src={data[1].image} className="w-[50%] h-[50%]" alt="" />
           </div>
           <div>
             <h5>{data[1].name}</h5>
@@ -81,7 +80,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[2].image} className="" alt="" />
+            <img src={data[2].image} className="w-[50%] h-[50%]" alt="" />
           </div>
           <div>
             <h5>{data[2].name}</h5>
@@ -103,7 +102,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[3].image} className="" alt="" />
+            <img src={data[3].image} className="w-[50%] h-[50%]" alt="" />
           </div>
           <div>
             <h5>{data[3].name}</h5>
@@ -125,7 +124,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[4].image} className="" alt="" />
+            <img src={data[4].image} className="w-[50%] h-[50%]" alt="" />
           </div>
           <div>
             <h5>{data[4].name}</h5>
@@ -147,7 +146,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[5].image} className="" alt="" />
+            <img src={data[5].image} className="w-[50%] h-[50%]" alt="" />
           </div>
           <div>
             <h5>{data[5].name}</h5>
