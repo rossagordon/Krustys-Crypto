@@ -34,9 +34,9 @@ const Tracker = () => {
 
       {/* Right Side */}
       <div className="h-[400px] w-[400px] flex grid grid-cols-3 mx-auto gap-[50px] items-center">
-        <div>
-          <div>
-            <img src={data[0].image} className="w-[50%] h-[50%]" alt="" />
+        <div className="p-5">
+          <div className="">
+            <img src={data[0].image} className="w-[35%] h-[35%]" alt="" />
           </div>
           <div>
             <h5>{data[0].name}</h5>
@@ -58,7 +58,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[1].image} className="w-[50%] h-[50%]" alt="" />
+            <img src={data[1].image} className="w-[35%] h-[35%]" alt="" />
           </div>
           <div>
             <h5>{data[1].name}</h5>
@@ -80,7 +80,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[2].image} className="w-[50%] h-[50%]" alt="" />
+            <img src={data[2].image} className="w-[35%] h-[35%]" alt="" />
           </div>
           <div>
             <h5>{data[2].name}</h5>
@@ -100,9 +100,9 @@ const Tracker = () => {
           )}
         </div>
 
-        <div>
+        <div className="p-5">
           <div>
-            <img src={data[3].image} className="w-[50%] h-[50%]" alt="" />
+            <img src={data[3].image} className="w-[35%] h-[35%]" alt="" />
           </div>
           <div>
             <h5>{data[3].name}</h5>
@@ -124,7 +124,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[4].image} className="w-[50%] h-[50%]" alt="" />
+            <img src={data[4].image} className="w-[35%] h-[35%]" alt="" />
           </div>
           <div>
             <h5>{data[4].name}</h5>
@@ -146,7 +146,7 @@ const Tracker = () => {
 
         <div>
           <div>
-            <img src={data[5].image} className="w-[50%] h-[50%]" alt="" />
+            <img src={data[5].image} className="w-[35%] h-[35%]" alt="" />
           </div>
           <div>
             <h5>{data[5].name}</h5>
