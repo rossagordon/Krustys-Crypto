@@ -23,7 +23,7 @@ const Tracker = () => {
   if (!data) return null;
 
   return (
-    <div className="bg-[#00957C] h-full w-full grid md:grid-cols-2 gap-5 items-center">
+    <div name="tracker" className="bg-[#00957C] h-full w-full grid md:grid-cols-2 gap-5 items-center">
       {/* Left Side*/}
       <div>
         <h2 className="text-center text-4xl m-8">
@@ -33,8 +33,8 @@ const Tracker = () => {
       </div>
 
       {/* Right Side */}
-      <div className="h-[400px] w-[400px] flex grid grid-cols-3 mx-auto gap-[50px] items-center">
-        <div className="p-5">
+      <div className="h-[400px] w-[400px] flex grid grid-cols-3 mx-auto gap-[50px] items-center p-8">
+        <div className="">
           <div className="">
             <img src={data[0].image} className="w-[75%] h-[75%]" alt="Bitcoin" />
           </div>
